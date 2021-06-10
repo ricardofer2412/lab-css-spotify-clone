@@ -1,8 +1,92 @@
-/*
-Colors:
+.main {
+  margin: 0px;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+}
 
-*/
+#banner {
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 600px;
+}
+
+.banner-title {
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+}
+.banner-text {
+  color: white;
+  text-align: center;
+}
+
+.title-text-div {
+  display: flex;
+  flex-direction: column;
+
+  align-content: center;
+}
+
+.description-img {
+  width: 100px;
+  height: 100px;
+}
+
+.spotify-section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.spotify-section-title {
+  text-align: center;
+  font-size: 30px;
+  padding:20px
+}
+hr.rounded {
+  border-top: 3px solid #5DC555;;
+  border-radius: 5px;
+ color: #5DC555;
+    margin-top: -10px;
+
+ width: 25%;
+
+}
+.spotify-section-desc {
+
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding:20px;
+  margin:20px
+}
+
+.spotify-section-title-desc {
+  color: #5DC555;
+  font-size: 15px;
+  text-align: center;
+}
+
+.box {
+  margin: 0 auto;
+}
+
+.paragraph {
+  color: gray;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 20px;
+  font-weight:300
